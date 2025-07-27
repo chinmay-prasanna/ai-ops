@@ -12,7 +12,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-ops.git
+git clone https://github.com/chinmay-prasanna/ai-ops.git
 cd ai-ops
 
 # Create and activate a virtual environment
@@ -24,3 +24,15 @@ pip install -r requirements.txt
 
 # Run the server
 uvicorn server:app --host 0.0.0.0 --port $PORT
+```
+
+## API Endpoints
+
+**/analzye** - Analyze the architecture diagram and prepare services. Request body - 
+```
+{
+  "url":"<url-to-image>"
+}
+```
+
+**/start-deployment** - Prepare the deployment script. JSON body is returned from the analyze endpoint, which can be updated with proper data for each service
