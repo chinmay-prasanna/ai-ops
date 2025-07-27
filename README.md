@@ -1,6 +1,7 @@
 # AI-Ops
 
 **AI-Ops** is a tool that helps you quickly generate deployment scripts from an architectural model of your project. It identifies key infrastructure components and maps them to appropriate Google Cloud Platform (GCP) or Firebase services.
+Uses openai chatgpt 4o to analyze the architecture and requirements to map appropriate services. It helps if the diagram is tailored to GCP environment and has clear information on each service required in the architecture.
 
 ## Requirements
 
