@@ -1,0 +1,7 @@
+openai
+pillow
+fastapi
+uvicorn
+gunicorn
+python-dotenv
+requests
